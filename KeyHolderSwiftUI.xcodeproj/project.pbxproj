@@ -79,12 +79,8 @@
 		AE2F82B3237FC123004ADD05 /* KeyHolderSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				AE2F82B4237FC123004ADD05 /* AppDelegate.swift */,
-				AE2F82B6237FC123004ADD05 /* SceneDelegate.swift */,
-				AE2F82B8237FC123004ADD05 /* ContentView.swift */,
-				AE2F82BA237FC12C004ADD05 /* Assets.xcassets */,
-				AE2F82BF237FC12C004ADD05 /* LaunchScreen.storyboard */,
-				AE2F82C2237FC12C004ADD05 /* Info.plist */,
+				AE2F82D623804F55004ADD05 /* Supporting FIles */,
+				AE2F82D723804F86004ADD05 /* Scenes */,
 				AE2F82BC237FC12C004ADD05 /* Preview Content */,
 			);
 			path = KeyHolderSwiftUI;
@@ -105,6 +101,34 @@
 				AE2F82CD237FC12C004ADD05 /* Info.plist */,
 			);
 			path = KeyHolderSwiftUITests;
+			sourceTree = "<group>";
+		};
+		AE2F82D623804F55004ADD05 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F82B6237FC123004ADD05 /* SceneDelegate.swift */,
+				AE2F82B4237FC123004ADD05 /* AppDelegate.swift */,
+				AE2F82BA237FC12C004ADD05 /* Assets.xcassets */,
+				AE2F82C2237FC12C004ADD05 /* Info.plist */,
+				AE2F82BF237FC12C004ADD05 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		AE2F82D723804F86004ADD05 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F82D823805426004ADD05 /* Login */,
+				AE2F82B8237FC123004ADD05 /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AE2F82D823805426004ADD05 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +390,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KeyHolderSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N79DHHMYVL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = KeyHolderSwiftUI/Info.plist;
+				INFOPLIST_FILE = "KeyHolderSwiftUI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +410,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KeyHolderSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N79DHHMYVL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = KeyHolderSwiftUI/Info.plist;
+				INFOPLIST_FILE = "KeyHolderSwiftUI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
